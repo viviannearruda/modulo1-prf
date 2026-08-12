@@ -1,1 +1,31 @@
+# Projeto: Data Analytics com Dados Abertos da PRF (2025)
+## Módulo 3 - SQL e SQLite
 
+Esta pasta contém a solução do projeto prático de **Data Analytics com Dados Abertos da PRF (2025)** referente a Unidade 3. A análise foi conduzida utilizando o banco de dados **SQLite** (via SQLiteOnline) sobre a base oficial de acidentes de trânsito disponibilizada pela Polícia Rodoviária Federal.
+
+---
+
+## 📌 Visão Geral e Objetivos
+
+O objetivo principal deste projeto é realizar a ingestão, tratamento, modelagem e análise exploratória/descritiva dos dados de ocorrências de acidentes em rodovias federais no ano de 2025. 
+
+A análise abrange desde o cálculo de métricas gerais de letalidade e rankings regionais/rodoviários até análises bivariadas avançadas (avaliação de cobertura e efeito *Lift*) para identificação de fatores de risco associados a acidentes fatais.
+
+---
+
+## 📂 Estrutura de Arquivos do Projeto
+
+```text
+Modulo3_DataAnalytics_PRF/
+│
+├── README.md                      # Documentação completa do projeto
+├── script_analise_prf_2025.sql    # Script SQL contendo Etapas 1 a 7 e Apêndice C
+│
+└── resultados/                    # Pasta contendo as exportações dos relatórios em CSV
+    ├── resultado_uf.csv           # Métrica e letalidade agrupadas por Estado (UF)
+    ├── resultado_br.csv           # Top 30 rodovias com maior volume absoluto de mortos
+    ├── resultado_mes.csv          # Série temporal e evolução mensal dos acidentes
+    ├── resultado_tipo.csv         # Análise bivariada por Tipo de Acidente
+    ├── resultado_causa.csv        # Análise bivariada por Causa Principal
+    ├── resultado_fase_dia.csv     # Análise bivariada por Fase do Dia
+    └── resultado_clima.csv        # Análise bivariada por Condição Meteorológica
