@@ -1,30 +1,47 @@
-📊 Análise de Dados de Acidentes Rodoviários (PRF - 2025)
-Projeto de análise exploratória, tratamento de dados, tabelas dinâmicas, fórmulas estatísticas e criação de dashboards e visualizações gráficas utilizando a base de dados abertos da Polícia Rodoviária Federal (PRF) referente ao ano de 2025 (datatran2025).
+# 📈 Unidade 2 — Análise de Dados com Planilhas
 
-📌 Visão Geral do Projeto
-O objetivo deste projeto é transformar um volume expressivo de dados brutos da PRF em insights acionáveis sobre a segurança viária nas rodovias federais brasileiras.
+## 📌 Sobre a unidade
 
-A partir do tratamento dos dados brutos, foram construídos:
+Nesta unidade, os dados de acidentes da Polícia Rodoviária Federal (PRF) foram explorados e analisados por meio de planilhas.
 
-Aba de Análise Estatística: Fórmulas avançadas para contagens condicionais, agregações, métricas de tendência central, dispersão e ferramentas de busca dinâmica.
+Foram aplicados conceitos de organização, limpeza, cálculos, análise estatística e visualização de dados, utilizando ferramentas como Microsoft Excel e Google Sheets.
 
-Aba de Observações / Metadados: Registro das dimensões do dataset (linhas e colunas) e identificação dos campos mais relevantes para tomada de decisão.
+---
 
-Aba de Dashboard & Gráficos: Visualizações para acompanhamento de indicadores de gravidade, perfil das vias, condições climáticas e principais fatores causadores de acidentes.
+## 🎯 Objetivos
 
-🛠️ Tecnologias e Ferramentas Utilizadas
-Google Sheets / Microsoft Excel (Manipulação, Fórmulas, Funções e Visualizações)
+- Manipular e organizar dados em planilhas;
+- Aplicar filtros e ordenação;
+- Remover registros duplicados;
+- Realizar cálculos e criar indicadores;
+- Utilizar fórmulas e funções;
+- Aplicar conceitos básicos de estatística descritiva;
+- Criar tabelas e gráficos;
+- Identificar padrões nos dados de acidentes.
 
-Base de Dados: PRF - Dados Abertos de Acidentes Rodoviários (2025)
+---
 
-Fórmulas Aplicadas:
+## 📊 Análises desenvolvidas
 
-Contagens: CONT.VALORES, CONT.SE, CONTSES
+Ao longo da unidade, foram realizadas análises relacionadas a diferentes aspectos dos acidentes, como:
 
-Somas e Agregações: SOMA, SOMA.SE, SOMASES
+- Quantidade de acidentes por Unidade da Federação;
+- Quantidade de acidentes por rodovia;
+- Número de mortes;
+- Número de pessoas envolvidas;
+- Quantidade de veículos envolvidos;
+- Distribuição dos acidentes ao longo da semana;
+- Comparação entre diferentes rodovias;
+- Identificação de valores máximos e mínimos.
 
-Médias e Proporções: MÉDIA, MÉDIA.SE
+---
 
-Estatística Descritiva: MODA / MODO.ÚNICO, MEDIANA, QUARTIL / QUARTIL.INC
+## 🧮 Fórmulas e funções utilizadas
 
-Pesquisa e Busca Dinâmica: PROCV
+Foram praticadas operações matemáticas básicas:
+
+```text
+Adição
+Subtração
+Multiplicação
+Divisão
